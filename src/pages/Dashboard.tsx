@@ -9,7 +9,7 @@ const Dashboard: React.FC = () => {
     <>
       <Navigation />
       <Routes>
-        <Route path="/" element={<div>Welcome to the Quaid Majlis Diary!</div>} />
+        <Route path="/" element={<div>Welcome to the Diary!</div>} />
         <Route path="/diary" element={<DiaryPage />} />
         <Route path="/budget" element={<BudgetPage />} />
       </Routes>
